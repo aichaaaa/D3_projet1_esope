@@ -1,0 +1,83 @@
+header {
+  background: rgb(20, 15, 15);
+  padding: 24px;
+  font-size: 24px;
+  font-style: bold;
+  font-variant: normal;
+  font-weight:normal;
+  position: fixed;
+font-family: 'PT Sans',sans-serif;
+
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+
+  padding: 20px;
+}
+
+header a {
+  text-decoration: underline;
+  color: #ffffff;
+  padding: 12px;
+  display: block;
+}
+
+.hero {
+  background:  rgb(05, 0, 0) url('images/illiu.jpg') top center no-repeat;
+  color: #fff;
+  min-height: 110vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+section {
+  min-height: 90vh;
+  padding: 42px;
+
+}
+
+.odd {
+  background:  rgb(120, 132, 142);
+  font-size: 25px;
+  font-family: 'Acme' sans-serif;
+  }
+
+  .even {
+    background: rgb(255, 255, 255);
+    font-family: 'Amaranth', sans-serif;
+    font-size: 25px;
+
+  }
+
+  .image-block {
+    max-width: 640px;
+    border: 12px solid #000;
+    }
+
+    .image-block img {
+      width: 100%;
+      display: block;
+    }
+
+    figcaption {
+      font-family: 'Amaranth', sans-serif;
+      font-style: italic;
+      font-size: 25px;
+    }
+
+  footer {
+background-image: url('images/li.png')  top center no-repeat;
+
+  }
+
+.hero h1 span {
+  display: block;
+}

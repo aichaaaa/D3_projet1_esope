@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Amaranth');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Asap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Righteous');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+html { font-size:  1em;
+}
+
+body {
+  font-family: 'Acme' sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  font-size: 15pt
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Amaranth' sans-serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  font-size: 15px
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.9998em;
+  text-align: center;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+
+.hero h1 {
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 150px;
+
+}
+
+.hero h1 span{
+  color:  rgb(123, 112, 96);
+  font-family: 'Luckiest Guy', cursive;
+  display: block;
+}
+
+
+#section01 h1 {
+  font-family: 'Acme', sans-serif;
+}
+#section01 p {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 35px;
+
+}
+
+#section02 h2{
+  font-family: 'Fadja One',sans-serif;
+}
+
+#section02 p{
+  font-family: 'Pacifico',cursive;
+  font-size: 45px;
+}
+
+#section03 h1 {
+  font-family: 'Abril Fatface',cursive;
+}
+#section03 p {
+  font-family: 'Asap', sans-serif;
+  font-size: 30px;
+}
+
+#section04 h1 {
+  font-family: 'Righteous'cursive;
+}
+
+#section04 p {
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+}
+
+#section05 h1 {
+  font-family: 'courgette',cursive;
+}
+
+#section05 p {
+  font-family: 'Permanent Market',cursive;
+  font-size: 40px;
+}
+ footer{
+   color: rgb(0, 0, 0);
+   background: rgba(255, 255, 255, 1);
+   padding: 50px;
+   font-family: 'Luckiest Guy',cursive;
+   font-size: 50px;
+   background-image: url('images/li.png');
+ }
