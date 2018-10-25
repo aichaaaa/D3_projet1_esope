@@ -61,10 +61,13 @@ small, .font_small {font-size: 0.707em;}
 
 #section01 h1 {
   font-family: 'Acme', sans-serif;
+  color: rgb(172, 121, 69);
+
 }
 #section01 p {
   font-family: 'Amaranth', sans-serif;
   font-size: 35px;
+  color: rgb(172, 121, 69);
 
 }
 
@@ -87,20 +90,24 @@ small, .font_small {font-size: 0.707em;}
 
 #section04 h1 {
   font-family: 'Righteous'cursive;
+  color: rgb(0, 0, 0);
 }
 
 #section04 p {
   font-family: 'Cinzel', serif;
   font-size: 30px;
+  color: rgb(0, 0, 0);
 }
 
 #section05 h1 {
   font-family: 'courgette',cursive;
+    color: rgb(255, 215, 0);
 }
 
 #section05 p {
   font-family: 'Permanent Market',cursive;
   font-size: 40px;
+  color: rgb(255, 215, 0);
 }
  footer{
    color: rgb(0, 0, 0);
