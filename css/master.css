@@ -45,7 +45,7 @@ section {
 }
 
 .odd {
-  background:  rgb(81, 41, 0);
+  background:  rgb(0, 0, 0);
   font-size: 25px;
   font-family: 'Acme' sans-serif;
   }
@@ -112,4 +112,16 @@ background-image: url('images/li.png')  top center no-repeat;
   justify-content: center;
   align-items: center;
 
+}
+#section02{
+  background:  rgb(05, 0, 0) url('images/scorpion.jpg') top center no-repeat;
+  color: #fff;
+  min-height: 110vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
 }
