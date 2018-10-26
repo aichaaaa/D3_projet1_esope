@@ -41,7 +41,15 @@ header a {
 section {
   min-height: 90vh;
   padding: 42px;
-
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.content{
+  flex-basis: 640px;
+}
+.illustration{
+  flex-basis: 320px;
 }
 
 .odd {
@@ -92,7 +100,7 @@ background-image: url('images/li.png')  top center no-repeat;
   align-items: center;}
 
   #section05 {
-    background:  rgb(05, 0, 0) url('images/800.jpg') top center no-repeat;
+    background:  rgb(05, 0, 0) url('images/bruce.jpg') top center no-repeat;
     color: #fff;
     min-height: 110vh;
     background-size: cover;
@@ -103,7 +111,7 @@ background-image: url('images/li.png')  top center no-repeat;
   }
 
 #section04{
-  background:  rgb(05, 0, 0) url('images/j.jpg') top center no-repeat;
+  background:  rgb(05, 0, 0) url('images/fawn.jpg') top center no-repeat;
   color: #fff;
   min-height: 110vh;
   background-size: cover;
@@ -123,5 +131,10 @@ background-image: url('images/li.png')  top center no-repeat;
   justify-content: center;
   align-items: center;
 
-  
+
+}
+
+.content
+.illustration{
+  flex-basis: 640px;
 }

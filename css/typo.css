@@ -90,24 +90,24 @@ small, .font_small {font-size: 0.707em;}
 
 #section04 h1 {
   font-family: 'Righteous'cursive;
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
 
 #section04 p {
   font-family: 'Cinzel', serif;
   font-size: 30px;
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
 
 #section05 h1 {
   font-family: 'courgette',cursive;
-    color: rgb(255, 215, 0);
+    color: #fff;
 }
 
 #section05 p {
   font-family: 'Permanent Market',cursive;
   font-size: 40px;
-  color: rgb(255, 215, 0);
+  color: #fff;
 }
  footer{
    color: rgb(0, 0, 0);
