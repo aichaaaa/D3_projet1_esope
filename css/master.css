@@ -21,21 +21,20 @@ header li {
 }
 
 header a {
-  text-decoration: underline;
+  text-decoration: overline;
   color: #ffffff;
   padding: 12px;
   display: block;
 }
 
 .hero {
-  background:  rgb(05, 0, 0) url('images/illiu.jpg') top center no-repeat;
-  color: #fff;
-  min-height: 110vh;
+  background:  url('images/renard.jpg') top center no-repeat;
+  min-height: 200vh;
   background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-attachment: scroll;
+  display:flex;
+  justify-content: flex-end;
+  align-items:flex-end ;
   }
 
 section {
@@ -78,36 +77,36 @@ flex-wrap: wrap;
     figcaption {
       font-family: 'Amaranth', sans-serif;
       font-style: italic;
-      font-size: 25px;
+      font-size: 30px;justify-content: flex-start;
     }
 
   footer {
-background-image: url('images/li.png')  top center no-repeat;
 
-  }
+
+}
 
 .hero h1 span {
   display: block;
 }
 #section03 {
-  background:  rgb(05, 0, 0) url('images/k.jpg') top center no-repeat;
+  background:  rgb(05, 0, 0) url('images/chien.jpg') top center no-repeat;
   color: #fff;
   min-height: 110vh;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;}
 
   #section05 {
-    background:  rgb(05, 0, 0) url('images/bruce.jpg') top center no-repeat;
+    background:  rgb(05, 0, 0) url('images/chouette.jpg') top center no-repeat;
     color: #fff;
     min-height: 110vh;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
 #section04{
@@ -117,24 +116,39 @@ background-image: url('images/li.png')  top center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 
 }
 #section02{
-  background:  rgb(05, 0, 0) url('images/scorpion.jpg') top center no-repeat;
+  background:  rgb(05, 0, 0) url('images/sauterelle.jpg') top center no-repeat;
+
+min-height: 110vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block;
+  justify-content: center;
+  align-items: baseline;
+  color: #fff;
+}
+
+#section01{
+  background:  rgb(05, 0, 0) url('images/lion1.jpg') top center no-repeat;
   color: #fff;
   min-height: 110vh;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
-  justify-content: center;
-  align-items: center;
-
+  justify-content: flex-start;
+  align-items: flex-start;
 
 }
-
 .content
 .illustration{
   flex-basis: 640px;
+}
+
+.li {
+  text-decoration: overline;
+
 }

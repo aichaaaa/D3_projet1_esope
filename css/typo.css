@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Acme|Amaranth');
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Gravitas+One');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Asap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Righteous');
 @import url('https://fonts.googleapis.com/css?family=Courgette|Permanent+Marker');
@@ -44,16 +44,15 @@ small, .font_small {font-size: 0.707em;}
 
 
 .hero h1 {
-  color: rgb(0, 0, 0);
-  background: rgba(255, 255, 255, 0.8);
-  padding: 50px;
+  color: #fff;
+padding: 50px;
   font-family: 'Luckiest Guy', cursive;
-  font-size: 150px;
+  font-size: 300px;
 
 }
 
 .hero h1 span{
-  color:  rgb(123, 112, 96);
+  color:  #fff;
   font-family: 'Luckiest Guy', cursive;
   display: block;
 }
@@ -71,21 +70,26 @@ small, .font_small {font-size: 0.707em;}
 
 }
 
-#section02 h2{
-  font-family: 'Fadja One',sans-serif;
+#section02 h2 {
+  font-family: 'Gravitas One', cursive;
+  color : #fff;
 }
 
-#section02 p{
-  font-family: 'Pacifico',cursive;
+#section02 p {
+  font-family: ' Aclonica', sans-serif;
   font-size: 45px;
+color : #fff;
 }
 
 #section03 h1 {
   font-family: 'Abril Fatface',cursive;
+  color : rgb(0, 0, 0);
 }
 #section03 p {
   font-family: 'Asap', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
+  color : rgb(0, 0, 0);
+
 }
 
 #section04 h1 {
@@ -95,7 +99,7 @@ small, .font_small {font-size: 0.707em;}
 
 #section04 p {
   font-family: 'Cinzel', serif;
-  font-size: 30px;
+  font-size: 35px;
   color: #fff;
 }
 
@@ -110,10 +114,12 @@ small, .font_small {font-size: 0.707em;}
   color: #fff;
 }
  footer{
-   color: rgb(0, 0, 0);
-   background: rgba(255, 255, 255, 1);
-   padding: 50px;
-   font-family: 'Luckiest Guy',cursive;
-   font-size: 50px;
-   background-image: url('images/li.png');
+   background:rgb(0, 0, 0);
+   font-family: 'Abril Fatface',cursive;
+   color: #fff;
+   font-size: 25px;
+   padding: 70px;
+   text-decoration: underline;
+
+
  }
